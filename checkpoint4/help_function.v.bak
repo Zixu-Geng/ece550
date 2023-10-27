@@ -1,0 +1,25 @@
+module opcode_decoder(BR, DMwe, Rwe, Rwd, Rdst, ALUop, ALUinB, opcode);
+	input [4:0] opcode;
+	output BR, DMwe, Rwe, Rwd,Rdst, ALUop, ALUinB;
+	
+
+	
+	assign BR = opcode[4];
+	assign DMwe = opcode[3];
+	
+	wire temp_Rwe;
+	or or_op1(temp_Rwe, opcode[0], opcode[1]);
+	or or_op2(Rwe, temp_Rwe, opcode[2]);
+	
+	assign Rwd = opcode[2];
+	assign Rdst = ~ opcode[0];
+	assign ALUop = opcode[4];
+	
+	wire temp_ALUinB;
+	or or_op3(temp_ALUinB, opcode[1], opcode[2]);
+	or or_op4(ALUinB, opcode[2], opcode[3]);
+
+
+
+endmodule
+
