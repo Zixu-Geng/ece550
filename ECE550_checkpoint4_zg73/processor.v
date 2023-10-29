@@ -93,7 +93,7 @@ module processor(
     /* YOUR CODE STARTS HERE */
 	wire [4:0] opcode, rd, rs, rt, shamt, aluop;
 	wire [1:0] zeros;
-	wire [15:0] immediate;
+	wire [16:0] immediate;
 	
 	assign opcode = q_imem[31:27];
 	assign rd = q_imem[26:22];
@@ -138,7 +138,9 @@ module processor(
 	assign is_addi = (~opcode[0]) & (~opcode[1]) & (opcode[2]) & (~opcode[3]) & (opcode[4]);
 	assign is_sub = (~opcode[0]) & (~opcode[1]) & (~opcode[2]) & (~opcode[3]) & (~opcode[4]);
 	
-	assign ctrl_writeReg = is_add ? 1 : (is_addi ? 2 : (is_sub ? 3 : tmp_writeReg));
+	//error handling
+	assign ctrl_writeReg = is_add ? 5'd30 : (is_addi ? 5'd30 : (is_sub ? 5'd30 : tmp_writeReg));
+
 	
 	
 	//dmem out
@@ -147,13 +149,14 @@ module processor(
 	assign wren = DMwe;
 	
 	//regfile_out
-	assign data_writeReg = DMwe ? q_dmem : alu_output;
+	assign data_writeReg = is_add ? 1 : (is_addi ? 2 : (is_sub ? 3 : (DMwe ? q_dmem : alu_output)));
 	
 	
 	//PC and imem
-	wire [11:0] PC;
+	wire [11:0] pc;
+	wire isNotEqual_2, isLessThan_2, overflow_2;
 	dffe_ref pc_1(address_imem, pc, clock, 1'b1, reset);
-	alu alu2(address_imem, 32'b00000000000000000000000000000001, 5'b00000, 5'b00000, pc, isNotEqual_2, isLessThan_2, overflow_2);
+	alu alu2(address_imem, 32'b00000000000000000000000000000100, 5'b00000, 5'b00000, pc, isNotEqual_2, isLessThan_2, overflow_2);
 
 
 
