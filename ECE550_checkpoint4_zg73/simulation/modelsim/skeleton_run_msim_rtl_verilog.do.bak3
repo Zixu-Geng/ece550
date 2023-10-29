@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dffe.v}
+vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/help_function.v}
+vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton.v}
+vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/processor.v}
+vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dmem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/imem.v}
+

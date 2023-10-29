@@ -1,0 +1,230 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/simulation/modelsim
+valu
+Z1 !s110 1698546405
+!i10b 1
+!s100 CM2POFHhm`MRQRPIcjMQG0
+ICNOJ8SC@0:GbbX>MHaMaW0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1698545994
+8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/alu.v
+FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1698546404.000000
+!s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73
+Z7 tCvgOpt 0
+vbasic_tb
+R1
+!i10b 1
+!s100 01lK?]5B7Z`H925AE?92O3
+IodQhWWclB0ed9I_m80z^o3
+R2
+R0
+Z8 w1698545993
+8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton_tb.v
+FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z9 !s108 1698546405.000000
+!s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton_tb.v|
+!i113 1
+R5
+R6
+R7
+vdffe_ref
+Z10 !s110 1698546404
+!i10b 1
+!s100 m2?1a8:`omUTO_3UK>MQz1
+IZ2D^C95FiFO8zfWOm<k8d2
+R2
+R0
+Z11 w1698545996
+8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dffe.v
+FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dffe.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dffe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dffe.v|
+!i113 1
+R5
+R6
+R7
+vdmem
+R10
+!i10b 1
+!s100 Ig2U5z`UQ`aKkLjgP8hjc1
+IJ34eUoMfC;8i^[e2a1ciS2
+R2
+R0
+R8
+8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dmem.v
+FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dmem.v
+Z12 L0 40
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dmem.v|
+!i113 1
+R5
+R6
+R7
+vimem
+R1
+!i10b 1
+!s100 eUM5=<=R`9QgHJ=YcTAHO0
+ILfA:XJ1FAj``aaUMdPWP=0
+R2
+R0
+R8
+8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/imem.v
+FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/imem.v
+R12
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/imem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/imem.v|
+!i113 1
+R5
+R6
+R7
+vopcode_convert
+R10
+!i10b 1
+!s100 94G]RL7f]ZH3WNPEA0:Rk1
+IkOSMQYChNLHP]0EOBfF?00
+R2
+R0
+R11
+Z13 8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/help_function.v
+Z14 FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/help_function.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z15 !s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/help_function.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/help_function.v|
+!i113 1
+R5
+R6
+R7
+vprocessor
+R10
+!i10b 1
+!s100 MhhhYcODXWz=N@fYBce1N3
+I9MVYVRVoj>RVlMek^;^mQ2
+R2
+R0
+w1698546243
+8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/processor.v
+FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/processor.v
+L0 50
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/processor.v|
+!i113 1
+R5
+R6
+R7
+vregfile
+R10
+!i10b 1
+!s100 =W4YeYh>3kkG6^XN@]O3M1
+I7=AC`jez]Ulk_ZzTBXNHj0
+R2
+R0
+w1698545997
+8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/regfile.v
+FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/regfile.v|
+!i113 1
+R5
+R6
+R7
+vskeleton
+R10
+!i10b 1
+!s100 ^VHQeGh]4X`>=kX]J;@=V1
+I7_hDikG_<3;9mPgXePZ;J1
+R2
+R0
+R8
+8C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton.v
+FC:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73|C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton.v|
+!i113 1
+R5
+R6
+R7
+vsx
+R10
+!i10b 1
+!s100 c:lei3Q_`W_NWhXZfZ`=^3
+I?z<IX49RflzjS?365Qln>3
+R2
+R0
+R11
+R13
+R14
+L0 17
+R3
+r1
+!s85 0
+31
+R4
+R15
+R16
+!i113 1
+R5
+R6
+R7

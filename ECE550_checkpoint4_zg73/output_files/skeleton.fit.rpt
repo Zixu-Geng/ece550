@@ -1,5 +1,5 @@
 Fitter report for skeleton
-Fri Oct 27 14:36:47 2023
+Sat Oct 28 22:24:32 2023
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Oct 27 14:36:47 2023       ;
+; Fitter Status                      ; Successful - Sat Oct 28 22:24:32 2023       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; skeleton                                    ;
 ; Top-level Entity Name              ; skeleton                                    ;
@@ -143,15 +143,15 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 20          ;
-; Maximum allowed            ; 14          ;
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
-; Maximum used               ; 14          ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-14        ;   0.1%      ;
+;     Processor 2            ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -193,7 +193,7 @@ agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/output_files/skeleton.pin.
+The pin-out file can be found in C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/output_files/skeleton.pin.
 
 
 +---------------------------------------------------------------------+
@@ -1346,7 +1346,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (119006): Selected device EP4CE115F29C7 for design "skeleton"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -1413,17 +1413,17 @@ Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/output_files/skeleton.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/output_files/skeleton.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 6468 megabytes
-    Info: Processing ended: Fri Oct 27 14:36:47 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:19
+    Info: Peak virtual memory: 5365 megabytes
+    Info: Processing ended: Sat Oct 28 22:24:32 2023
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:17
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/output_files/skeleton.fit.smsg.
+The suppressed messages can be found in C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/output_files/skeleton.fit.smsg.
 
 
