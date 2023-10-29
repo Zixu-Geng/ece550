@@ -156,7 +156,7 @@ module processor(
 	wire [11:0] pc;
 	wire isNotEqual_2, isLessThan_2, overflow_2;
 	dffe_ref pc_1(address_imem, pc, clock, 1'b1, reset);
-	alu alu2(address_imem, 32'b00000000000000000000000000000100, 5'b00000, 5'b00000, pc, isNotEqual_2, isLessThan_2, overflow_2);
+	alu alu2(address_imem, 12'b000000000100, 5'b00000, 5'b00000, pc, isNotEqual_2, isLessThan_2, overflow_2);
 
 
 

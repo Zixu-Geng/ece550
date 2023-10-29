@@ -10,86 +10,116 @@
 # Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Sadcard/LEGACY/Work\ Zone/ECE550/project/checkpoint_4 {C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/dffe.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dffe.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:07:39 on Oct 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4" C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/dffe.v 
+# Start time: 22:26:44 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dffe.v 
 # -- Compiling module dffe_ref
 # 
 # Top level modules:
 # 	dffe_ref
-# End time: 22:07:39 on Oct 28,2023, Elapsed time: 0:00:00
+# End time: 22:26:44 on Oct 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Sadcard/LEGACY/Work\ Zone/ECE550/project/checkpoint_4 {C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/help_function.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/help_function.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:07:39 on Oct 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4" C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/help_function.v 
+# Start time: 22:26:44 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/help_function.v 
 # -- Compiling module opcode_convert
 # -- Compiling module sx
 # 
 # Top level modules:
 # 	opcode_convert
 # 	sx
-# End time: 22:07:39 on Oct 28,2023, Elapsed time: 0:00:00
+# End time: 22:26:44 on Oct 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Sadcard/LEGACY/Work\ Zone/ECE550/project/checkpoint_4 {C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/skeleton.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:07:39 on Oct 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4" C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/skeleton.v 
+# Start time: 22:26:44 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton.v 
 # -- Compiling module skeleton
 # 
 # Top level modules:
 # 	skeleton
-# End time: 22:07:39 on Oct 28,2023, Elapsed time: 0:00:00
+# End time: 22:26:44 on Oct 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Sadcard/LEGACY/Work\ Zone/ECE550/project/checkpoint_4 {C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/regfile.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/regfile.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:07:39 on Oct 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4" C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/regfile.v 
+# Start time: 22:26:44 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/regfile.v 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 22:07:39 on Oct 28,2023, Elapsed time: 0:00:00
+# End time: 22:26:44 on Oct 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Sadcard/LEGACY/Work\ Zone/ECE550/project/checkpoint_4 {C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/processor.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/processor.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:07:39 on Oct 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4" C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/processor.v 
+# Start time: 22:26:44 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/processor.v 
 # -- Compiling module processor
 # 
 # Top level modules:
 # 	processor
-# End time: 22:07:39 on Oct 28,2023, Elapsed time: 0:00:00
+# End time: 22:26:44 on Oct 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Sadcard/LEGACY/Work\ Zone/ECE550/project/checkpoint_4 {C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/dmem.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dmem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:07:39 on Oct 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4" C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/dmem.v 
+# Start time: 22:26:44 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/dmem.v 
 # -- Compiling module dmem
 # 
 # Top level modules:
 # 	dmem
-# End time: 22:07:39 on Oct 28,2023, Elapsed time: 0:00:00
+# End time: 22:26:44 on Oct 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Sadcard/LEGACY/Work\ Zone/ECE550/project/checkpoint_4 {C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/alu.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:07:39 on Oct 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4" C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/alu.v 
+# Start time: 22:26:44 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 22:07:39 on Oct 28,2023, Elapsed time: 0:00:00
+# End time: 22:26:45 on Oct 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Sadcard/LEGACY/Work\ Zone/ECE550/project/checkpoint_4 {C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/imem.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/imem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:07:39 on Oct 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4" C:/Users/Sadcard/LEGACY/Work Zone/ECE550/project/checkpoint_4/imem.v 
+# Start time: 22:26:45 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/imem.v 
 # -- Compiling module imem
 # 
 # Top level modules:
 # 	imem
-# End time: 22:07:39 on Oct 28,2023, Elapsed time: 0:00:00
+# End time: 22:26:45 on Oct 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
+# vlog -vlog01compat -work work +incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73 {C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:26:45 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73" C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/skeleton_tb.v 
+# -- Compiling module basic_tb
+# 
+# Top level modules:
+# 	basic_tb
+# End time: 22:26:45 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  skeleton_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" skeleton_tb 
+# Start time: 22:26:45 on Oct 28,2023
+# ** Error: (vsim-3170) Could not find 'skeleton_tb'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/17.0/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/17.0/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/17.0/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/simulation/modelsim/rtl_work
+#             C:/Users/zg73/Desktop/ECE550_checkpoint4_zg73/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./skeleton_run_msim_rtl_verilog.do PAUSED at line 19
+# End time: 22:27:12 on Oct 28,2023, Elapsed time: 0:00:27
+# Errors: 1, Warnings: 0
